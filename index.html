@@ -13,10 +13,13 @@
     />
 
     <!--Carousel Bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <!--CDN Font Awesome-->
     <link
@@ -29,17 +32,22 @@
 
     <!--Metaetiquetas-->
     <title>Le Collecteur: Todas las colecciones</title>
-    <meta name="description" content="Le Collecteur reune todas las colecciones por temporada de las casas de moda más importantes. Incluye los looks de las colecciones, fotos de las celebridades invitadas a los desfiles, calendario de próximos eventos e información de utilidad para los seguidores de la alta costura">
-    <meta name="keywords" content="Chanel, Prada, Dior, YSL, Gucci, McQueen, Moschino, MiuMiu, haute couture, alta costura, desfile, colecciones, Spring, Summer, Cruise, Fall, Winter">
+    <meta
+      name="description"
+      content="Le Collecteur reune todas las colecciones por temporada de las casas de moda más importantes. Incluye los looks de las colecciones, fotos de las celebridades invitadas a los desfiles, calendario de próximos eventos e información de utilidad para los seguidores de la alta costura"
+    />
+    <meta
+      name="keywords"
+      content="Chanel, Prada, Dior, YSL, Gucci, McQueen, Moschino, MiuMiu, haute couture, alta costura, desfile, colecciones, Spring, Summer, Cruise, Fall, Winter"
+    />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="SCSSlecollecteur\estiloslecollecteur.css"/>
+    <link rel="stylesheet" href="SCSSlecollecteur\estiloslecollecteur.css" />
   </head>
   <body>
-
     <header>
       <!--Bloque BEM-->
       <nav class="nav__ul--propiedades">
@@ -48,14 +56,16 @@
             <a href="index.html">Home</a>
           </li>
           <li>
-            <a href="seccionesLeCollecteur/calendarioEventos.html"
-              >Calendario de eventos
-            </a>
+            <a href="calendarioEventos.html">Calendario de eventos</a>
           </li>
           <li>
-            <a href="seccionesLeCollecteur/coleccionesAnteriores.html"
-              >Colecciones anteriores</a
-            >
+            <a href="looks.html">Looks</a>
+          </li>
+          <li>
+            <a href="proximasColecciones.html">Próximas colecciones</a>
+          </li>
+          <li>
+            <a href="sightings.html">Sightings</a>
             <ul class="submenu">
               <li><a href="">Chanel</a></li>
               <li><a href="">Dior</a></li>
@@ -64,19 +74,10 @@
             </ul>
           </li>
           <li>
-            <a href="seccionesLeCollecteur/looks.html">Looks</a>
+            <a href="blog.html">Blog</a>
           </li>
           <li>
-            <a href="seccionesLeCollecteur/proximasColecciones.html"
-              >Próximas colecciones</a
-            ><!--En esta sección va la tabla del desafío 2-->
-          </li>
-          <li>
-            <a href="seccionesLeCollecteur/sightings.html">Sightings</a>
-          </li>
-          <li>
-            <a href="seccionesLeCollecteur/uneteAlhive.html">Unete al hive</a
-            ><!--En esta sección se incluye el formulario del desafío 2-->
+            <a href="uneteAlhive.html">Unete al hive</a>
           </li>
         </ul>
       </nav>
@@ -91,60 +92,79 @@
     <br />
     <main>
       <section>
-
         <!--Aqui va el carrousel para seleccionar las colecciones-->
         <!--Carousel con Bootstrap y JavaScript-->
-    <div class="sec mx-auto" >
-      <div id="demo" class="carousel slide" data-ride="carousel">
+        <div class="sec mx-auto">
+          <div id="demo" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
 
-        <!-- Indicators -->
-        <ul class="carousel-indicators">
-          <li data-target="#demo" data-slide-to="0" class="active"></li>
-          <li data-target="#demo" data-slide-to="1"></li>
-          <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
-      
-        <!-- The slideshow -->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="/CSSlecollecteur/img/CarouselIndex/Cruise2022/chanel.jpg" alt="Chanel" width="810" height="440">
-            <div class="carousel-caption">
-              <h3>Chanel</h3>
-              <p></p>
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="/CSSlecollecteur/img/CarouselIndex/Cruise2022/chanel.jpg"
+                  alt="Chanel"
+                  width="810"
+                  height="440"
+                />
+                <div class="carousel-caption">
+                  <h3>Chanel</h3>
+                  <p></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/CSSlecollecteur/img/CarouselIndex/Cruise2022/dior.jpg"
+                  alt="Dior"
+                  width="810"
+                  height="440"
+                />
+                <div class="carousel-caption">
+                  <h3>Dior</h3>
+                  <p></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/CSSlecollecteur/img/CarouselIndex/Cruise2022/moschino.jpg"
+                  alt="Moschino"
+                  width="810"
+                  height="440"
+                />
+                <div class="carousel-caption">
+                  <h3>Moschino</h3>
+                  <p></p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="/CSSlecollecteur/img/CarouselIndex/Cruise2022/dior.jpg" alt="Dior" width="810" height="440" >
-            <div class="carousel-caption">
-              <h3>Dior</h3>
-              <p></p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="/CSSlecollecteur/img/CarouselIndex/Cruise2022/moschino.jpg" alt="Moschino" width="810" height="440">
-            <div class="carousel-caption">
-              <h3>Moschino</h3>
-              <p></p>
-            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
           </div>
         </div>
-      
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
-      
-      </div>
-    </div>
-      <br/>
-      <br/>
-      <br/>
+        <br />
+        <br />
+        <br />
 
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/4XrSB3paj0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/4XrSB3paj0o"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </section>
       <br />
       <br />
@@ -169,11 +189,24 @@
             <li class="font-weight-bold text-uppercase">Redes</li>
             <li class="d-flex justify-content-between">
               <!--Facebook-->
-              <a target="blank" href="https://www.facebook.com/" class="text-reset"><i class="fab fa-facebook"></i></a>
+              <a
+                target="blank"
+                href="https://www.facebook.com/"
+                class="text-reset"
+                ><i class="fab fa-facebook"></i
+              ></a>
               <!--Twitter-->
-              <a target="blank" href="https://www.twitter.com/" class="text-reset"><i class="fab fa-twitter"></i></a>
+              <a
+                target="blank"
+                href="https://www.twitter.com/"
+                class="text-reset"
+                ><i class="fab fa-twitter"></i
+              ></a>
               <!--Instagram-->
-              <a target="blank" href="https://www.instagram.com/" class="text-reset"
+              <a
+                target="blank"
+                href="https://www.instagram.com/"
+                class="text-reset"
                 ><i class="fab fa-instagram"></i
               ></a>
             </li>
@@ -185,7 +218,7 @@
               <a target="blank" href="https://elle.mx/" class="text-reset"
                 >Ir a Elle México</a
               >
-            </li> 
+            </li>
             <li>
               <a target="blank" href="https://www.vogue.mx/" class="text-reset"
                 >Ir a Vogue México</a
@@ -193,7 +226,9 @@
             </li>
             <li>
               <a
-                target="blank" href="https://www.glamour.mx/" class="text-reset"
+                target="blank"
+                href="https://www.glamour.mx/"
+                class="text-reset"
                 >Ir a Glamour México</a
               >
             </li>
